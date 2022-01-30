@@ -5,6 +5,7 @@ body {
     color: #414141;
     margin:0;
     padding:0;
+    width: 100%;
 }
 
 h1 {
@@ -92,6 +93,7 @@ h4 {
     max-width: 900px;
     margin-right: auto;
     margin-left: auto;
+    width:100%;
 }
 
 
@@ -107,11 +109,13 @@ h4 {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 16px;
+    width: 100%;
 }
 
 .header-right {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .right-links {
@@ -172,14 +176,16 @@ a:hover {
 
 .hero-right {
     flex: 1;
+    width: 100%;
 }
 
 .hero-left {
     flex: 1 2 0;
+    width: 100%;
 }
 
 .hero-left > img {
-    min-width: 380px;
+    min-width: 280px;
     height: auto;
     max-width: 100%;
 }
